@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+​
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter: Découvrez les actualité du jour </title>
+    ​
+    <!-- Ici c'est pour Apple, enfaite on leur dit que arrivé sur apple 
+    la couleur inherit devra etre imposé -->
+    <style type="text/css">
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+        }
+    </style>
+    ​
+
+</head>
+​
+
+<body style="margin: 0; padding: 0;">
+    <!-- Ici le role c'est une plus regle de momenctalure mais il va  décrire le rôle d’un élément -->
+    ​
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <!-- Ici j'ai ajouté la balise time parce que j'ai ajouté un temps bien déterminer
+             -->
+            <td align="center">
+                <p style="font-family:'Open Sans',Arial,Helvetica,sans-serif;font-weight:700;font-size:36px;text-align:center;margin:0;color:#220936;"> Infos du <time> 31 Mars </time> 2021 </p>
+            </td>
+        </tr>
+
+        <tr>
+            <!-- Ici on a défini un paddinng de 20px en haut,0 a droite,30pxen bas,0a gauche a savoir que ca se fait dans le sens des éguilles d'une montre
+              -->
+            <td style="padding: 20px 0 30px 0;">
+                <!-- J'ai testé la valeur align enfaite ici elle va permettre de savoir comment l'élement va être positionné et la à l'hoccurence il sera positionné de maniere centré
+                 -->
+                <!--La propriété border-collapse détermine si les bordures d'un tableau sont séparées ou fusionnées la avec la valeur collaspse
+                celle ci sera fusionné  -->
+                <!-- Le width va déterminé la largeur de toute la bôite et par conséquent afféctera les élement qui se trouvent à l'intèrieur -->
+                <!-- Une bordure de 1 px a été ajoutée et de couleur rouge au tour du tableau  -->
+                <!-- "cellpadding" et "cellspacing" a été défini a zéro pour ne pas avoir desespaces indésirables
+                 -->
+                <table align="center" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; border: 1px solid #2f4169;">
+                    <tr>
+                        <!-- Ici la cellule contenant l'image a été centré grace à la valeur de align="center" et une couleur de fond a été 
+                        ajoute grace a bgcolor-->
+
+
+
+                        <td align="center" bgcolor="#153643" style="padding: 40px 0 30px 0;">
+                            <img src="https://www.phosphore.com/wp-content/uploads/2015/01/ECVdigital.jpg
+                            " alt="Infos newsletter" width="500" height="250" style="display: block;" />
+
+                        </td>
+
+
+
+
+                        <tr>
+                            <!-- a noter que seuls les paddings Fonctionent et non les margin il ne le supportent pas -->
+                            <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+
+
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                    <tr>
+                                        <!-- Grace au style sans passé par le css nous pouvons intégrer une couleur 
+                                    mais attention ! c'est différent du style.css car ici il est essentielle d"écrire les 6chiffres
+                                 -->
+                                        <!-- Un font family a été définie -->
+                                        <!-- Une bordure en haut et en bas a été défini -->
+                                        <td style="color: #153643; font-family: Arial, sans-serif; border-bottom: 2px solid black; border-top:2px solid black;padding: 1.5em 0 1.5em 0;" align="center">
+                                            <!-- ​La taille de la police d'écriture  a été definie de 24 px -->
+                                            <h1 style="font-size: 24px; margin: 0;">La Minute Newsletter !</h1>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Ici une haureur de ligne a été définie de 24px-->
+                                        <!-- Un padding de 20px en haut,0 a droite, 30px en bas et 0 a gauche, 
+                                    ici on aurait pu le simplifier comme un css mais c'est à éviter car certains éditeur de mail supportent tres mal les paddings
+                                  -->
+                                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
+                                            <!-- Un margin de 0 a été a jouté au paragraphe dans la cellule -->
+                                            <p style="margin: 0;">Welcome dans la minute Newsletter.Ici Nous vous présentons quatre thématiques, qui sont actuellement au centre du 21ème siècle. Je vous laisse les découvrir !
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                <tr>
+                                                    <!-- ici on va avoir un Align son but va etre de 
+                                                définir l’alignement vertical du contenu d’une cellule de table et a l'hoccurence la il est plputot orienté
+                                                au niveau du haut avec 'top'. -->
+                                                    <td width="260" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                            <!-- J'ouvre une collonne dans lequel j'insere une cellule pour ensuite intégrer mon titre  -->
+                                                            <tr>
+                                                                <!-- Ici j'ajoute une bordure en bas de mon titre -->
+                                                                <!-- Ici on a centré le texte -->
+
+                                                                <td align="center" style="border-bottom:2px double; color: rgb(35, 37, 37);">
+                                                                    <h2>Développement web
+
+                                                                    </h2>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- Ici j'ai ajouté ceci pour permettre un espacement entre la photo et la bordure de bas. -->
+                                                            <tr>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.silicon.fr/developpeurs-java-16-disponible-402788.html#" title="Allez a l'article">
+                                                                        <img src="https://www.silicon.fr/wp-content/uploads/2019/04/computer-developer-via-pexels.com-1181675.jpg
+                                                                    " alt="Image de Développemnt" width="100%" height="150" style="display: block;" /> </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
+                                                                    <p style="margin: 0;">Oracle confirme la disponibilité de Java Development Kit 16, avec les fonctionnalités Pattern Matching et Records finalisées.
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
+                                                    <td width="260" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                            <tr>
+                                                                <td align="center" style="border-bottom:2px double; color: rgb(35, 37, 37);">
+                                                                    <h2> Web Marketing </h2>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.ecommercemag.fr/Thematique/marketing-1221/Breves/Cookies-comment-conformite-regles-Cnil-358729.htm" title="Allez à l'article">
+                                                                        <img src=" https://s3.amazonaws.com/cdn.wp.m4ecnet/wp-content/uploads/2020/01/15235216/nueva-portada-enero-1-compressor3.jpg " alt="Image de Cookies " width="100% " height="146
+                                                                    " style="display: block; " /></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="color: #26343a; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0; ">
+                                                                    <p style="margin: 0; ">Cookies : comment être en conformité avec les règles de la Cnil ?
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#ffffff " style="padding: 40px 30px 40px 30px; ">
+                                <table border="0 " cellpadding="0 " cellspacing="0 " width="100% " style="border-collapse: collapse; ">
+                                    <tr>
+                                        <td>
+                                            <table border="0 " cellpadding="0 " cellspacing="0 " width="100% " style="border-collapse: collapse; ">
+
+                                                <tr>
+                                                    <td width="260 " valign="top ">
+                                                        <table border="0 " cellpadding="0 " cellspacing="0 " width="100% " style="border-collapse: collapse; ">
+
+                                                            <tr>
+                                                                <td align="center " style="border-bottom:2px double; color: rgb(35, 37, 37); ">
+                                                                    <h2>Web design </h2>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://newflux.fr/2021/01/26/les-liens-entre-design-et-intelligence-artificielle/" title="Allez à l'article">
+                                                                        <img src="https://images.unsplash.com/photo-1486746730710-0e7ce7b07038?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80 " alt="Image
+                                                                    d 'ordinateur design" width="100%" height="146" style="display: block;">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
+                                                                    <p style="margin: 0;">Les liens entre design et intelligence artificielle
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+
+                                                        </table>
+                                                    </td>
+                                                    <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
+                                                    <td width="260" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                                            <tr>
+                                                                <td align="center" style="border-bottom:2px double; color: rgb(35, 37, 37);">
+                                                                    <h2>Digital / Technologie </h2>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="https://www.larevuedudigital.com/le-groupe-casino-lance-une-monnaie-digitale-le-lugh/" title="Allez à l'article">
+                                                                        <img src="https://www.larevuedudigital.com/wp-content/uploads/2021/03/Paiement-Casino-Max-4-BF2.jpg
+                                                                    " alt="La revue du digital" width="100%" height="146" style="display: block;"></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;">
+                                                                    <p style="margin: 0;">Le groupe Casino lance une monnaie digitale, le Lugh .
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            ​
+                            <td bgcolor="#153643" style="padding: 30px 80px;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                                    <!-- Les br qui sont normalemnt intoléré dans la version 5 du html, ici elle est tolorée, elle va permettre des sauts de lignes à l'hoccurence on aurait utilisé des margins mais comme ce n 'est pas possible
+                                 -->
+                                    <tr>
+                                        <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;" width="75%">
+                                            <p style="margin: 0;">&reg; ECV Digital - La minute newsletter - Janvier wawens - 2021<br/> Se <a href="#" style="color: #beb0b0;" title="liquez ici si vous désirez vous désabonnez">désinscrire</a> à notre newsletter.</p>
+                                        </td>
+
+                                        ​
+                                    </tr>
+                                </table>
+                            </td>
+                            ​
+                        </tr>
+                </table>
+            </td>
+            </tr>
+    </table>
+
+
+</body>
+​
+
+</html>
+
+</html>
